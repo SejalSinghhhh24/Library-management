@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		body{
+    	 		background-color: #ffb3b3;
+    	 	}
+    	.pic1{
+    		top: 0px;
+    		left: 0px;
+    		position: absolute;
+
+    	 }
+    	.pic2{
+    		left: 300px;
+    		top:0px;
+    		position: absolute;
+    	}
+    	.pic3{
+    		left: 600px;
+    		top:0px;
+    		position: absolute;
+    	}
+    	.pic4{
+    		left: 900px;
+    		top:0px;
+    		position: absolute;
+    	}
+    	.pic5{
+    		left: 1200px;
+    		top:0px;
+    		position: absolute;
+    	}
+    	h1{
+    	 		font-family: 'Courier New', monospace;
+    	 		font-size: 100px;
+    	 		top: 200px;
+    	 		left: 350px;
+    	 		position: absolute;
+    	 		background-color: pink;
+
+    	 	}
+    	input[type=text] {
+			  width: 50%;
+			  top: 490px;
+			  left: 420px;
+			  position: absolute;
+			  padding: 15px;
+			  margin: 5px 0 22px 0;
+			  display: inline-block;
+			  border: none;
+			  background: #f1f1f1;
+			}
+			input[type=password] {
+			  width: 50%;
+			  top: 690px;
+			  left: 420px;
+			  position: absolute;
+			  padding: 15px;
+			  margin: 5px 0 22px 0;
+			  display: inline-block;
+			  border: none;
+			  background: #f1f1f1;
+			}
+			body {font-family: "Times New Roman",Times,serif;font-size: 20px;}
+* {box-sizing: border-box}
+			input[type=text]:focus, input[type=password]:focus {
+			  background-color: #ddd;
+			  outline: none;
+			}
+			.id{
+				top: 400px;
+				left: 420px;
+				font-size: 50px;
+			}
+			.psw{
+				top: 600px;
+				left: 420px;
+				font-size: 50px;
+			}
+
+			button {
+				  background-color: #4CAF50;
+				  color: white;
+				  padding: 14px 20px;
+				  margin: 8px 0;
+				  border: none;
+				  cursor: pointer;
+				  width: 100%;
+
+				  position: absolute;
+				  top: 900px;
+				  opacity: 0.9;
+				}
+
+				button:hover {
+				  opacity:1;
+				}
+
+				.cancelbtn {
+				  padding: 14px 20px;
+				  background-color: #f44336;
+				}
+				.cancelbtn{
+				  position: absolute;
+				  left: 410px;
+				  top: 780px;
+				  width: 20%;
+				  margin:40px;
+				  border-radius: 200px;
+				  border:4px solid white;
+				   box-shadow: 0 8px 16px 0
+				  rgba(0,0,0,0.5),0 6px 20px 0
+				  rgba(0,0,0,0.1);
+
+				}
+				.signupbtn {
+				  position: absolute;
+				  left: 810px;
+				  top: 780px;
+				  border:4px solid white;
+				  border-top-width: solid;
+				  width: 20%;
+				  margin: 40px;
+				  border-radius: 200px;
+				  padding: 14px 20px;
+				  box-shadow: 0 8px 16px 0
+				  rgba(0,0,0,0.5),0 6px 20px 0
+				  rgba(0,0,0,0.1);
+				}
+
+
+    </style>
+</head>
+<body>
+	<div class="pic1"><img src="images (5).jfif" width="300" height="200"></div>
+	<div class="pic2"><img src="images (6).jfif" width="300" height="200"></div>
+	<div class="pic3"><img src="images (6).jfif" width="300" height="200"></div>
+	<div class="pic4"><img src="images (6).jfif" width="300" height="200"></div>
+	<div class="pic5"><img src="woman-library.jpg" width="335" height="200"></div>
+	<h1 class="header">BOOKS ISSUE PAGE</h1>
+	<h1 class="id"><b> Student ID </b></h1>
+    <input type="text" placeholder="Enter student ID" name="ID" required>
+
+    <h1 class="psw"><b>BOOK ID</b></h1>
+    <input type="text" placeholder="Enter book id" name="psw" required>
+
+    <div >
+      <button type="button" class="cancelbtn">Cancel</button></div>
+      <div>
+      	<a href="page3.html">
+      <button class="signupbtn" onclick="document.location='.html'" >Sign Up</button>
+    </div>
+</body>
